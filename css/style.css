@@ -1,0 +1,171 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background: url(../images/cs3.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.top{
+	height: 25vh;
+	width: 15%;
+	float: left;
+}
+.mid{
+	height: 50vh;
+	width: 15%;
+	float: left;
+}
+
+.right{
+	width: 85%;
+	height: 100vh;
+	float: right;
+
+}
+.right img{
+	width:350px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 45%;
+}
+.bottom{
+	height: 25vh;
+	width: 15%;
+	float: left;
+}
+.mid ul{
+	list-style-type: none;
+	padding: 20px;
+	position: fixed;
+}
+.mid ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	font-size: 50px;
+	margin-bottom: 40px;
+	margin-left: 10px auto;
+	text-align: center;
+}
+.mid ul li a:hover{
+	background-color: grey;
+	transition: 0.8s ease;
+	color: black;
+}
+.bottom{
+	height: 25vh;
+	width: 15%;
+	float: left;
+}
+.ad{
+	width: 100%;
+	height: 10px;
+	float: left;
+}
+.blog{
+	width: 100%;
+	min-height: 100vh;
+	float: left;
+}
+.a{
+	width: 15%;
+	height: 100vh;
+	float: left;
+}
+.inside{
+	width: 85%;
+	min-height: 100vh;
+	float: left;
+}
+.cont{
+	width: 80%;
+	min-height: 100vh;
+	float: left;
+	background: rgba(0,0,0,.8);
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+}
+.cont h1{
+	font-size: 50px;
+	margin-left: 60px;
+	font-family: impact;
+}
+.cont h2{
+	font-size: 25px;
+	margin-left: 80px;
+	font-family: impact;
+}
+.cont img{
+	width: 70%;
+	height: 500px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.cont p{
+	font-size: 25px;
+	margin-left: 50px;
+	font-family: Courier new;
+}
+
+.container img{
+	width: 100%;
+	height: 300px;
+	margin: 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background: rgba(0,0,0,.8);
+
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container {
+  position: relative;
+  width: 33%;
+  height: 400px;
+  margin-left: 3px;
+  float: left;
+}
+.text h3{
+	font-family: Courier new;
+	font-size: 30px;
+}
+.bo{
+	width: 100%;
+	height: 95px;
+	float: left;
+	background-color: grey;
+}
+.bo h4{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.bo p{
+	font-size: 15px;
+	margin-top: 5px;
+}
